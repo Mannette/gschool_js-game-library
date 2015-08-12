@@ -10,36 +10,43 @@
 
     <h1>Game Library</h1>
 
-    <form class="game-library" action="index.html" method="post">
+    <form class="games" action="index.html" method="post">
       Game Title:<br>
-      <input type="text" name="game-title">
+      <input id="game-title" type="text" name="game-title" placeholder="What's the game?">
       <br><br>
       Genre:<br>
-      <input class="genre" type="checkbox" name="game-genre" value="shooter">Shooter
+      <input class="genre" type="checkbox" name="game-genre" value="shooter"> Shooter
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="action-adventure">Action/Adventure
+      <input class="genre" type="checkbox" name="game-genre" value="action-adventure"> Action/Adventure
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="fighting">Fighting
+      <input class="genre" type="checkbox" name="game-genre" value="fighting"> Fighting
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="puzzle">Puzzle
+      <input class="genre" type="checkbox" name="game-genre" value="puzzle"> Puzzle
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="third-person">Third Person
+      <input class="genre" type="checkbox" name="game-genre" value="third-person"> Third Person
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="platform">Platform
+      <input class="genre" type="checkbox" name="game-genre" value="platform"> Platform
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="RPG">RPG
+      <input class="genre" type="checkbox" name="game-genre" value="RPG"> RPG
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="strategy">Strategy
+      <input class="genre" type="checkbox" name="game-genre" value="strategy"> Strategy
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="sports">Sports
+      <input class="genre" type="checkbox" name="game-genre" value="sports"> Sports
       <br>
-      <input class="genre" type="checkbox" name="game-genre" value="survival-horror">Survival Horror
+      <input class="genre" type="checkbox" name="game-genre" value="survival-horror"> Survival Horror
+      <br><br>
+      <input id="submit" type="submit" value="Add to your game library?">
       <br>
+    </form>
+    <form class="game-library">
+      <input id="newLibrary" type="text" placeholder="Library title">
+      <br><br>
+      <input id="libraryButton" type="submit" value="Create new library?">
     </form>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src"js/utility.js">
+    <script type="text/javascript" src="js/utility.js">
 
     </script>
     <script type="text/javascript" src="js/main.js"></script>
